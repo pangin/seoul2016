@@ -38,12 +38,32 @@
 .countdown-show7 .countdown-section {
 	width: 14%;
 }
+
 .countdown-section {
 	display: block;
 	float: left;
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 250%;
 	text-align: center;
+}
+
+@media (max-width: 1199px) {
+	.countdown-section {
+		display: block;
+		float: left;
+		font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 200%;
+		text-align: center;
+	}
+}
+@media (max-width: 767px) {
+	.countdown-section {
+		display: block;
+		float: left;
+		font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 90%;
+		text-align: center;
+	}
 }
 .countdown-amount {
     font-size: 200%;
