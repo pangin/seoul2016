@@ -143,7 +143,8 @@ a:focus {
   font-size: 40px;
 }
 .intro .intro-body .intro-text {
-  font-size: 18px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
 }
 @media (min-width: 768px) {
   .intro {
@@ -317,6 +318,7 @@ ul.banner-social-buttons {
 }
 footer {
   padding: 50px 0;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 footer p {
   margin: 0;
