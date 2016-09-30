@@ -181,9 +181,8 @@ a:focus {
 }
 .intro .intro-body {
   position: relative;
-  display: table-cell;
+  display: block;
   /*vertical-align: middle;*/
-  margin-top:50px;
   top: 10%;
 }
 @media (min-width: 768px) {
@@ -203,9 +202,8 @@ a:focus {
   }
   .intro .intro-body {
     position: relative;
-    display: table-cell;
+    display: block;
     /*vertical-align: middle;*/
-	margin-top:50px;
     top: 10%;
   }
 }
