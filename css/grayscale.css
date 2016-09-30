@@ -183,6 +183,7 @@ a:focus {
   position: relative;
   display: table-cell;
   /*vertical-align: middle;*/
+  margin-top:50px;
   top: 10%;
 }
 @media (min-width: 768px) {
