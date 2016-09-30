@@ -183,7 +183,7 @@ a:focus {
   position: relative;
   display: table-cell;
   /*vertical-align: middle;*/
-  top: 10%;
+  top: 1%;
 }
 @media (min-width: 768px) {
   .intro {
@@ -208,28 +208,58 @@ a:focus {
   }
 }
 .intro .intro-body .brand-heading {
-  font-size: 40px;
+  font-size: 26px;
   letter-spacing: -1px;
 }
 .intro .intro-body .intro-text {
-  font-size: 30px;
-  letter-spacing: 20px;
+  font-size: 20px;
+  letter-spacing: 5px;
   color: #5ec1ff;
   text-transform: uppercase;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 799px) {
+  .intro .intro-body .brand-heading {
+    font-size: 48px;
+  }
+  .intro .intro-body .intro-text {
+    font-size: 26px;
+    letter-spacing: 10px;
+    color: #5ec1ff;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 420px) {
+  .intro .intro-body .brand-heading {
+    font-size: 26px;
+    letter-spacing: -1px;
+  }
+  .intro .intro-body .intro-text {
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #5ec1ff;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 800px) {
   .intro {
     height: 100%;
     padding: 0;
   }
   .intro .intro-body .brand-heading {
     font-size: 72px;
+	letter-spacing: -1px;
   }
   .intro .intro-body .intro-text {
-    font-size: 26px;
+    font-size: 32px;
+    letter-spacing: 19px;
+    color: #5ec1ff;
+    text-transform: uppercase;
   }
 }
+
 .btn-circle {
   width: 70px;
   height: 70px;
