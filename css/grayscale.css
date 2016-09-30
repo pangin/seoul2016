@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
@@ -297,7 +297,7 @@ a:focus {
 #map {
   width: 100%;
   height: 200px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 @media (min-width: 767px) {
   .content-section {
@@ -307,8 +307,8 @@ a:focus {
     padding: 100px 0;
   }
   #map {
-    height: 400px;
-    margin-top: 250px;
+    height: 500px;
+    margin-top: 50px;
   }
 }
 #btnarea {
