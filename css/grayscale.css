@@ -1,10 +1,11 @@
-﻿/*!
+/*!
  * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
 /* 한국어, 일본어 웹폰트 추가 */
+@import url(http://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
@@ -14,13 +15,14 @@ body {
   height: 100%;
   color: white;
   background-color: black;
+  font-family: 'Nanum Barun Gothic',  sans-serif;
 }
 html {
   width: 100%;
   height: 100%;
 }
 html:lang(en) {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Nanum Barun Gothic',  sans-serif;
 }
 html:lang(ko) {
   font-family: 'Noto Sans KR', "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -35,10 +37,10 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0 0 35px;
+  /*margin: 0 0 35px;*/
   text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 1px;
+  /*font-weight: 700;*/
+  /*letter-spacing: 1px;*/
 }
 p {
   margin: 0 0 25px;
@@ -47,7 +49,7 @@ p {
 }
 @media (min-width: 768px) {
   p {
-    margin: 0 0 35px;
+    margin: 0 0 50px;
     font-size: 20px;
     line-height: 1.6;
   }
@@ -155,6 +157,14 @@ a:focus {
   }
   */
 }
+.logo {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  background: url(../img/irk.png) no-repeat center;
+}
+
 .intro {
   display: table;
   width: 100%;
@@ -199,9 +209,13 @@ a:focus {
 }
 .intro .intro-body .brand-heading {
   font-size: 40px;
+  letter-spacing: -1px;
 }
 .intro .intro-body .intro-text {
   font-size: 30px;
+  letter-spacing: 20px;
+  color: #5ec1ff;
+  text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
