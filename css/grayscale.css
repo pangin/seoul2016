@@ -204,6 +204,7 @@ a:focus {
     position: relative;
     display: block;
     /*vertical-align: middle;*/
+	margin-top:60px;
     top: 10%;
   }
 }
