@@ -166,7 +166,7 @@ a:focus {
 }
 
 .intro {
-  display: table;
+  display: block;
   width: 100%;
   height: auto;
   padding: 100px 0;
@@ -183,7 +183,7 @@ a:focus {
   position: relative;
   display: table-cell;
   /*vertical-align: middle;*/
-  top: 1%;
+  top: 10%;
 }
 @media (min-width: 768px) {
   .intro {
@@ -204,7 +204,8 @@ a:focus {
     position: relative;
     display: table-cell;
     /*vertical-align: middle;*/
-    top: 15%;
+	margin-top:50px;
+    top: 10%;
   }
 }
 .intro .intro-body .brand-heading {
