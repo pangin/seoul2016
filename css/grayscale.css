@@ -125,6 +125,23 @@ a:focus {
   float: right;
   width: 200px;
 }
+.google-plus-icon {
+  background: no-repeat url(https://ssl.gstatic.com/support/content/images/sprites/social-mobile-a5f1fd25bf5737c8b69f5da6ace1ccc7.png) 0;
+  background-position: 0 -66px;
+  position: absolute;
+  top: 5px;
+  padding-left:35px;
+  right: 80px;
+  float: right;
+  width:32px;
+  height:32px;
+}
+.google-plus-icon:hover,
+.google-plus-icon:focus {
+  outline: none;
+  color: #fff;
+}
+
 @media (max-width: 420px) {
   .navbar-custom .language-select {
     clear: both;
