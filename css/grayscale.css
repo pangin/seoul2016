@@ -389,6 +389,8 @@ a:focus {
   transition: all 0.3s ease-in-out;
   border-radius: 0;
 }
+
+/*
 .btn-default {
   border: 1px solid #c1c4ff;
   color: #f1f4ff;
@@ -401,6 +403,37 @@ a:focus {
   color: #ffffff;
   background-color: #1144ff;
 }
+*/
+.btn-default {
+  background: #3374bb;
+  border: 0;
+  padding: 5px 16px;
+  -webkit-box-shadow: none;
+      box-shadow: none;
+  color: #FFFFFF;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+  background: #295a90;
+  color: #FFFFFF;
+}
+
+.btn-default:active {
+
+}
+
+.btn-default:focus {
+  outline: none !important;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+  padding: 11px 16px;
+}
+
+.btn-wide {
+  width: 100%;
+}
+
 
 .btn-disabled {
   border: 1px solid #cccccc;
