@@ -201,6 +201,30 @@ a:focus {
   /*vertical-align: middle;*/
   top: 10%;
 }
+@media (max-width: 400px) {
+  .intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    background: url(../img/intro-bg.png) no-repeat top center scroll;
+    background-position-x: -540px;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+  .intro .intro-body {
+    position: relative;
+    display: block;
+    /*vertical-align: middle;*/
+  margin-top:60px;
+    top: 10%;
+  }
+}
 @media (min-width: 768px) {
   .intro {
     display: table;
@@ -267,7 +291,7 @@ a:focus {
   }
   .intro .intro-body .brand-heading {
     font-size: 72px;
-	letter-spacing: -1px;
+	 letter-spacing: -1px;
   }
   .intro .intro-body .intro-text {
     font-size: 32px;
