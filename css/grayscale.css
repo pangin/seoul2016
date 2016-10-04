@@ -387,7 +387,11 @@ a:focus {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  border-radius: 0;
+ /* border-radius: 0; */
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
 }
 
 /*
@@ -433,7 +437,6 @@ a:focus {
 .btn-wide {
   width: 100%;
 }
-
 
 .btn-disabled {
   border: 1px solid #cccccc;
