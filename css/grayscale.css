@@ -406,8 +406,8 @@ a:focus {
 }
 
 .btn {
-  text-transform: uppercase;
-  font-weight: 400;
+  /*text-transform: uppercase;*/
+  font-weight: 200;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -416,7 +416,9 @@ a:focus {
   -moz-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
-  font-size: 17px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  /*font-variant: small-caps;*/
 }
 
 /*
