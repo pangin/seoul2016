@@ -575,6 +575,17 @@ body {
 }
 
 
+.faqrow {
+	height:600px;
+}
+.faqtitle {
+  font-size: 48px;
+}
+.pdfobject-container {
+	height:90%;
+}
+
+
 /*glow for webkit*/
 
 @-webkit-keyframes neon1 {
