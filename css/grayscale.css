@@ -417,7 +417,7 @@ p:nth-child(2) a:hover {
   }
 }
 .content-section {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .download-section {
   width: 100%;
@@ -437,7 +437,7 @@ p:nth-child(2) a:hover {
 }
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 250px;
+    padding-top: 50px;
   }
   .download-section {
     padding: 100px 0;
@@ -576,13 +576,13 @@ body {
 
 
 .faqrow {
-	height:600px;
+  height: 80%;
 }
 .faqtitle {
   font-size: 48px;
 }
 .pdfobject-container {
-	height:90%;
+  height: 640px;
 }
 
 
