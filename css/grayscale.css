@@ -1,3 +1,4 @@
+﻿@charset "utf-8";
 /*!
  * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
  * Copyright 2013-2016 Start Bootstrap
@@ -582,7 +583,42 @@ body {
   font-size: 48px;
 }
 .pdfobject-container {
-  height: 640px;
+  position:relative; top:30px; height: 640px;
+}
+.faqchn {
+  position:relative; top:10px; text-align:right;
+}
+.faqchn a {
+  position:text-align:right; font-size:20px; color:#fff;
+}
+
+.faqchn .faqchntxt {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    border-radius: 6px;
+    padding: 5px 0;
+    z-index: 1;
+    bottom: 125%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.faqchn .faqchntxt::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.faqchn:hover .faqchntxt {
+    visibility: visible;
+    opacity: 1;
 }
 
 
